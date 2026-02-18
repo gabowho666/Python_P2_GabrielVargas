@@ -22,17 +22,41 @@
             "telefonos": [
                 "300000000"
             ],
-            "estado": "Inscrito",
+            "estado": "Aprobado",
             "riesgo": "Bajo"
         },
         {
-            "id": "2",
+            "id": "2030",
             "nombres": "Pablito",
             "apellidos": "Gonzales",
             "direccion": "1212",
             "acudiente": "Maria",
             "telefonos": [
                 "12"
+            ],
+            "estado": "Aprobado",
+            "riesgo": "Bajo"
+        },
+        {
+            "id": "1214",
+            "nombres": "jose",
+            "apellidos": "felisiano",
+            "direccion": "112",
+            "acudiente": "maria ",
+            "telefonos": [
+                "121212"
+            ],
+            "estado": "En proceso de ingreso",
+            "riesgo": "Bajo"
+        },
+        {
+            "id": "1313",
+            "nombres": "gaga",
+            "apellidos": "jhdsd",
+            "direccion": "sdsd",
+            "acudiente": "dsd",
+            "telefonos": [
+                "dsd"
             ],
             "estado": "Aprobado",
             "riesgo": "Bajo"
@@ -190,6 +214,14 @@
             "ruta": "NodeJS",
             "fecha_inicio": "1/01/2026",
             "fecha_fin": "10/10/2026",
+            "salon": "Sputnik"
+        },
+        {
+            "camper_id": "1212",
+            "trainer_id": "002",
+            "ruta": "Java",
+            "fecha_inicio": "2026/01/1",
+            "fecha_fin": "2026/10/10",
             "salon": "Sputnik"
         }
     ]
