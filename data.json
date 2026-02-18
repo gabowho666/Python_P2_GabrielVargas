@@ -1,0 +1,196 @@
+{
+    "campers": [
+        {
+            "id": "C001",
+            "nombres": "Juan",
+            "apellidos": "Pérez",
+            "direccion": "Calle 1",
+            "acudiente": "Carlos Pérez",
+            "telefonos": [
+                "3001000001",
+                "1000001"
+            ],
+            "estado": "Aprobado",
+            "riesgo": "Bajo"
+        },
+        {
+            "id": "1212",
+            "nombres": "Juan David",
+            "apellidos": "Marin",
+            "direccion": "Girón",
+            "acudiente": "Diana",
+            "telefonos": [
+                "300000000"
+            ],
+            "estado": "Inscrito",
+            "riesgo": "Bajo"
+        },
+        {
+            "id": "2",
+            "nombres": "Pablito",
+            "apellidos": "Gonzales",
+            "direccion": "1212",
+            "acudiente": "Maria",
+            "telefonos": [
+                "12"
+            ],
+            "estado": "Aprobado",
+            "riesgo": "Bajo"
+        }
+    ],
+    "trainers": [
+        {
+            "identificacion": "001",
+            "nombres": "Pedro Felipe",
+            "apellidos": "Gomez",
+            "jornada": "6am-6pm",
+            "rutas": [
+                "Ruta NodeJS",
+                "Ruta Java"
+            ],
+            "notas_especiales": [
+                "nota java"
+            ]
+        },
+        {
+            "identificacion": "002",
+            "nombres": "Jholver",
+            "apellidos": "Pardo",
+            "jornada": "6am-2pm",
+            "rutas": [
+                "Ruta Java",
+                "Ruta NetCore"
+            ]
+        },
+        {
+            "identificacion": "003",
+            "nombres": "Christian",
+            "apellidos": "Diaz",
+            "jornada": "10am-6pm",
+            "rutas": [
+                "Ruta Java",
+                "Ruta NodeJS"
+            ]
+        },
+        {
+            "identificacion": "004",
+            "nombres": "Edwin",
+            "apellidos": "Salas",
+            "jornada": "6am-2pm",
+            "rutas": [
+                "Ruta Java",
+                "Ruta NetCore"
+            ]
+        },
+        {
+            "identificacion": "005",
+            "nombres": "Kevin David",
+            "apellidos": "",
+            "jornada": "6am-2pm",
+            "rutas": [
+                "Ruta Java"
+            ],
+            "especialidad": "Especialista Java"
+        }
+    ],
+    "rutas": [
+        {
+            "nombre": "Netcode",
+            "capacidad": 30,
+            "modulos": {
+                "Fundamentos de programación": [
+                    "Python"
+                ],
+                "Programación Web": [
+                    "HTML"
+                ],
+                "Programación Formal": [
+                    "Java"
+                ],
+                "Bases de Datos": {
+                    "principal": "MySQL",
+                    "alternativo": "PostgreSQL"
+                },
+                "Backend": [
+                    "Node.js"
+                ]
+            }
+        },
+        {
+            "nombre": "Java",
+            "capacidad": 33,
+            "modulos": {
+                "Fundamentos de programación": [
+                    "Python"
+                ],
+                "Programación Web": [
+                    "HTML",
+                    "CSS"
+                ],
+                "Programación Formal": [
+                    "Java",
+                    "POO"
+                ],
+                "Bases de Datos": {
+                    "principal": "MySQL",
+                    "alternativo": "Oracle"
+                },
+                "Backend": [
+                    "Spring Boot"
+                ]
+            }
+        },
+        {
+            "nombre": "NodeJS",
+            "capacidad": 33,
+            "modulos": {
+                "Fundamentos de programación": [
+                    "Python"
+                ],
+                "Programación Web": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                "Programación Formal": [
+                    "TypeScript"
+                ],
+                "Bases de Datos": {
+                    "principal": "MongoDB",
+                    "alternativo": "PostgreSQL"
+                },
+                "Backend": [
+                    "Node.js",
+                    "Express"
+                ]
+            }
+        }
+    ],
+    "areas": [
+        {
+            "nombre": "Sputnik",
+            "capacidad": 35,
+            "campers": []
+        },
+        {
+            "nombre": "Apollo",
+            "capacidad": 35,
+            "campers": []
+        },
+        {
+            "nombre": "Artemis",
+            "capacidad": 35,
+            "campers": []
+        }
+    ],
+    "matriculas": [
+        {
+            "camper_id": "2",
+            "trainer_id": "003",
+            "ruta": "NodeJS",
+            "fecha_inicio": "1/01/2026",
+            "fecha_fin": "10/10/2026",
+            "salon": "Sputnik"
+        }
+    ]
+}
